@@ -1,0 +1,15 @@
+Program exercise1;
+
+var
+  a, b, c: real;
+
+begin
+  writeLn('a: ');
+  readLn(a);
+  
+  writeLn('b: ');
+  readLn(b);
+
+  c := sqrt(sqr(a)+sqr(b));
+  writeLn(c);
+end.

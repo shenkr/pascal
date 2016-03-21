@@ -1,4 +1,5 @@
 program exercise3;
+
 var
   x, y : real;
 

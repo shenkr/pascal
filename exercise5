@@ -2,6 +2,7 @@ program exercise5;
 
 var
   m, n: word;
+
 begin
   readln(m, n);
 

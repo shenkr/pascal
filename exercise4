@@ -1,0 +1,16 @@
+Program exercise4;
+
+var
+  x, minutes, number: integer;
+
+begin
+  number:= 1;
+  
+  writeLn('minutes: ');
+  readLn(minutes);
+  
+  for x:=1 to minutes do begin
+    writeln(number);
+    number:= number * 2;
+  end;
+end.
